@@ -1,0 +1,143 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "entities" : [
+    {
+      "name" : "CDUserProfile",
+      "representedClassName" : "CDUserProfile",
+      "syncable" : true,
+      "attributes" : [
+        {
+          "name" : "id",
+          "attributeType" : "UUID",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "name",
+          "attributeType" : "String"
+        },
+        {
+          "name" : "fitnessGoal",
+          "attributeType" : "String"
+        },
+        {
+          "name" : "weeklyFrequency",
+          "attributeType" : "Integer 16",
+          "defaultValueString" : "3",
+          "usesScalarValueType" : true
+        },
+        {
+          "name" : "sessionDuration",
+          "attributeType" : "Double",
+          "defaultValueString" : "2700",
+          "usesScalarValueType" : true
+        },
+        {
+          "name" : "calendarSynced",
+          "attributeType" : "Boolean",
+          "defaultValueString" : "NO",
+          "usesScalarValueType" : true
+        },
+        {
+          "name" : "createdAt",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "updatedAt",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false
+        }
+      ]
+    },
+    {
+      "name" : "CDWorkout",
+      "representedClassName" : "CDWorkout",
+      "syncable" : true,
+      "attributes" : [
+        {
+          "name" : "id",
+          "attributeType" : "UUID",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "title",
+          "attributeType" : "String"
+        },
+        {
+          "name" : "focus",
+          "attributeType" : "String"
+        },
+        {
+          "name" : "scheduledDate",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "estimatedDuration",
+          "attributeType" : "Double",
+          "usesScalarValueType" : true
+        },
+        {
+          "name" : "isCompleted",
+          "attributeType" : "Boolean",
+          "defaultValueString" : "NO",
+          "usesScalarValueType" : true
+        },
+        {
+          "name" : "completedAt",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false,
+          "optional" : true
+        },
+        {
+          "name" : "createdAt",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false
+        }
+      ]
+    },
+    {
+      "name" : "CDExerciseProgress",
+      "representedClassName" : "CDExerciseProgress",
+      "syncable" : true,
+      "attributes" : [
+        {
+          "name" : "id",
+          "attributeType" : "UUID",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "exerciseId",
+          "attributeType" : "UUID",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "completedAt",
+          "attributeType" : "Date",
+          "usesScalarValueType" : false
+        },
+        {
+          "name" : "repsCompleted",
+          "attributeType" : "Integer 16",
+          "usesScalarValueType" : true,
+          "optional" : true
+        },
+        {
+          "name" : "durationCompleted",
+          "attributeType" : "Double",
+          "usesScalarValueType" : true,
+          "optional" : true
+        },
+        {
+          "name" : "difficultyRating",
+          "attributeType" : "Integer 16",
+          "defaultValueString" : "3",
+          "usesScalarValueType" : true
+        }
+      ]
+    }
+  ]
+} 

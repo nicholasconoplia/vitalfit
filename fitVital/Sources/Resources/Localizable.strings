@@ -1,0 +1,375 @@
+/*
+  Localizable.strings
+  fitVital
+
+  Created by Nick Conoplia on 30/5/2025.
+  
+*/
+
+// MARK: - General
+"app_name" = "FitVital";
+"ok" = "OK";
+"cancel" = "Cancel";
+"save" = "Save";
+"delete" = "Delete";
+"edit" = "Edit";
+"done" = "Done";
+"close" = "Close";
+"continue" = "Continue";
+"back" = "Back";
+"next" = "Next";
+"previous" = "Previous";
+"yes" = "Yes";
+"no" = "No";
+"loading" = "Loading...";
+"error" = "Error";
+"success" = "Success";
+"warning" = "Warning";
+
+// MARK: - Onboarding
+"onboarding_welcome_title" = "Welcome to FitVital";
+"onboarding_welcome_subtitle" = "Your personalized fitness journey starts here";
+"onboarding_name_title" = "What's your name?";
+"onboarding_name_subtitle" = "We'll use this to personalize your experience";
+"onboarding_name_placeholder" = "Enter your name";
+"onboarding_goal_title" = "What's your main goal?";
+"onboarding_goal_subtitle" = "This helps us create the perfect plan for you";
+"onboarding_frequency_title" = "How often do you want to work out?";
+"onboarding_frequency_subtitle" = "We'll build your schedule around this";
+"onboarding_equipment_title" = "What equipment do you have?";
+"onboarding_equipment_subtitle" = "We'll customize exercises based on what you have";
+"onboarding_times_title" = "When do you prefer to work out?";
+"onboarding_times_subtitle" = "We'll schedule workouts at your preferred times";
+"onboarding_permissions_title" = "Enable Features";
+"onboarding_permissions_subtitle" = "Optional features to enhance your experience";
+"onboarding_get_started" = "Get Started";
+"onboarding_skip" = "Skip";
+
+// MARK: - Features
+"feature_smart_scheduling_title" = "Smart Scheduling";
+"feature_smart_scheduling_description" = "Workouts that fit your busy life";
+"feature_progress_tracking_title" = "Progress Tracking";
+"feature_progress_tracking_description" = "See your improvements over time";
+"feature_ai_personalization_title" = "AI Personalization";
+"feature_ai_personalization_description" = "Plans that adapt to your needs";
+
+// MARK: - Fitness Goals
+"goal_stay_healthy" = "Stay Healthy";
+"goal_stay_healthy_description" = "General health and wellness";
+"goal_lose_fat" = "Lose Fat";
+"goal_lose_fat_description" = "Fat loss and body composition";
+"goal_build_strength" = "Build Strength";
+"goal_build_strength_description" = "Muscle building and strength";
+"goal_maintain" = "Maintain Fitness";
+"goal_maintain_description" = "Maintain current fitness level";
+"goal_boost_energy" = "Boost Energy";
+"goal_boost_energy_description" = "Increase daily energy and vitality";
+
+// MARK: - Equipment
+"equipment_gym" = "Full Gym";
+"equipment_gym_description" = "Full gym access with all equipment";
+"equipment_dumbbells" = "Dumbbells";
+"equipment_dumbbells_description" = "Dumbbells and basic weights";
+"equipment_bodyweight" = "Bodyweight Only";
+"equipment_bodyweight_description" = "No equipment needed";
+"equipment_bands" = "Resistance Bands";
+"equipment_bands_description" = "Resistance bands and tubes";
+
+// MARK: - Time of Day
+"time_morning" = "Morning";
+"time_morning_range" = "6:00 - 12:00";
+"time_afternoon" = "Afternoon";
+"time_afternoon_range" = "12:00 - 17:00";
+"time_evening" = "Evening";
+"time_evening_range" = "17:00 - 21:00";
+
+// MARK: - Permissions
+"permission_calendar_title" = "Calendar Integration";
+"permission_calendar_description" = "Sync workouts with your calendar";
+"permission_notifications_title" = "Workout Reminders";
+"permission_notifications_description" = "Get notified about upcoming workouts";
+"permission_enable" = "Enable";
+"permission_enable_all" = "Enable All";
+"permission_settings_note" = "You can always change these settings later";
+
+// MARK: - Tab Navigation
+"tab_home" = "Home";
+"tab_plan" = "Plan";
+"tab_calendar" = "Calendar";
+"tab_progress" = "Progress";
+"tab_settings" = "Settings";
+
+// MARK: - Home Tab
+"home_welcome_title" = "Good %@, %@";  // time of day, name
+"home_todays_workout" = "Today's Workout";
+"home_no_workout_scheduled" = "No workout scheduled for today";
+"home_quick_stats" = "Quick Stats";
+"home_weekly_progress" = "Weekly Progress";
+"home_recent_workouts" = "Recent Workouts";
+"home_start_workout" = "Start Workout";
+"home_mark_complete" = "Mark Complete";
+"home_schedule_workout" = "Schedule Workout";
+
+// MARK: - Plan Tab
+"plan_weekly_plan" = "Weekly Plan";
+"plan_workout_split" = "Workout Split";
+"plan_auto_schedule" = "Auto Schedule";
+"plan_custom_workout" = "Custom Workout";
+"plan_no_workouts" = "No workouts planned";
+"plan_add_workout" = "Add Workout";
+"plan_edit_workout" = "Edit Workout";
+"plan_delete_workout" = "Delete Workout";
+
+// MARK: - Calendar Tab
+"calendar_month_view" = "Month";
+"calendar_week_view" = "Week";
+"calendar_no_events" = "No events";
+"calendar_sync_required" = "Calendar sync required";
+"calendar_enable_sync" = "Enable Calendar Sync";
+"calendar_workout_scheduled" = "Workout scheduled";
+
+// MARK: - Progress Tab
+"progress_overview" = "Progress Overview";
+"progress_this_week" = "This Week";
+"progress_this_month" = "This Month";
+"progress_total_workouts" = "Total Workouts";
+"progress_current_streak" = "Current Streak";
+"progress_longest_streak" = "Longest Streak";
+"progress_weekly_goal" = "Weekly Goal";
+"progress_export_data" = "Export Data";
+"progress_insights" = "Insights";
+
+// MARK: - Settings Tab
+"settings_profile" = "Profile";
+"settings_preferences" = "Preferences";
+"settings_notifications" = "Notifications";
+"settings_calendar" = "Calendar";
+"settings_data" = "Data & Privacy";
+"settings_support" = "Support";
+"settings_about" = "About";
+"settings_logout" = "Logout";
+
+// MARK: - Profile Settings
+"profile_edit" = "Edit Profile";
+"profile_name" = "Name";
+"profile_goal" = "Fitness Goal";
+"profile_frequency" = "Weekly Frequency";
+"profile_duration" = "Session Duration";
+"profile_equipment" = "Equipment Access";
+"profile_times" = "Preferred Times";
+"profile_limitations" = "Physical Limitations";
+"profile_dislikes" = "Exercise Dislikes";
+
+// MARK: - Workout Types
+"workout_type_strength" = "Strength Training";
+"workout_type_cardio" = "Cardio";
+"workout_type_hiit" = "HIIT";
+"workout_type_yoga" = "Yoga";
+"workout_type_flexibility" = "Flexibility";
+"workout_type_sports" = "Sports";
+
+// MARK: - Workout Difficulty
+"difficulty_beginner" = "Beginner";
+"difficulty_intermediate" = "Intermediate";
+"difficulty_advanced" = "Advanced";
+
+// MARK: - Exercise Categories
+"category_chest" = "Chest";
+"category_back" = "Back";
+"category_shoulders" = "Shoulders";
+"category_arms" = "Arms";
+"category_legs" = "Legs";
+"category_core" = "Core";
+"category_cardio" = "Cardio";
+"category_fullbody" = "Full Body";
+
+// MARK: - Muscle Groups
+"muscle_chest" = "Chest";
+"muscle_back" = "Back";
+"muscle_shoulders" = "Shoulders";
+"muscle_biceps" = "Biceps";
+"muscle_triceps" = "Triceps";
+"muscle_quadriceps" = "Quadriceps";
+"muscle_hamstrings" = "Hamstrings";
+"muscle_glutes" = "Glutes";
+"muscle_calves" = "Calves";
+"muscle_core" = "Core";
+
+// MARK: - Workout Detail
+"workout_detail_overview" = "Overview";
+"workout_detail_exercises" = "Exercises";
+"workout_detail_start" = "Start Workout";
+"workout_detail_preview" = "Preview Exercises";
+"workout_detail_target_muscles" = "Target Muscles";
+"workout_detail_equipment" = "Equipment";
+"workout_detail_duration" = "Duration";
+"workout_detail_difficulty" = "Difficulty";
+
+// MARK: - Exercise Execution
+"exercise_sets" = "Sets";
+"exercise_reps" = "Reps";
+"exercise_duration" = "Duration";
+"exercise_rest" = "Rest";
+"exercise_seconds" = "seconds";
+"exercise_minutes" = "minutes";
+"exercise_complete" = "Complete";
+"exercise_skip" = "Skip";
+"exercise_pause" = "Pause";
+"exercise_resume" = "Resume";
+"exercise_stop" = "Stop";
+"exercise_next" = "Next Exercise";
+"exercise_previous" = "Previous Exercise";
+
+// MARK: - Timer
+"timer_start" = "Start";
+"timer_pause" = "Pause";
+"timer_reset" = "Reset";
+"timer_remaining" = "Remaining";
+
+// MARK: - Notifications
+"notification_workout_reminder_title" = "Workout Reminder";
+"notification_workout_reminder_body" = "Time for your %@ workout!";
+"notification_weekly_summary_title" = "Weekly Progress";
+"notification_weekly_summary_body" = "You completed %d workouts this week!";
+"notification_streak_milestone_title" = "Streak Milestone!";
+"notification_streak_milestone_body" = "Amazing! You've reached a %d-day streak.";
+"notification_motivation_title" = "Stay Strong!";
+"notification_motivation_body" = "Your next workout is waiting for you.";
+
+// MARK: - Errors
+"error_network" = "Network connection failed";
+"error_permission_calendar" = "Calendar permission required";
+"error_permission_notifications" = "Notification permission required";
+"error_data_save" = "Failed to save data";
+"error_data_load" = "Failed to load data";
+"error_workout_not_found" = "Workout not found";
+"error_invalid_input" = "Invalid input";
+"error_unknown" = "An unexpected error occurred";
+
+// MARK: - Success Messages
+"success_workout_completed" = "Workout completed!";
+"success_profile_updated" = "Profile updated successfully";
+"success_data_exported" = "Data exported successfully";
+"success_settings_saved" = "Settings saved";
+
+// MARK: - Confirmations
+"confirm_delete_workout" = "Are you sure you want to delete this workout?";
+"confirm_reset_progress" = "Are you sure you want to reset your progress?";
+"confirm_logout" = "Are you sure you want to logout?";
+"confirm_delete_account" = "Are you sure you want to delete your account?";
+
+// MARK: - Units
+"unit_minutes" = "minutes";
+"unit_seconds" = "seconds";
+"unit_times_per_week" = "times per week";
+"unit_workouts" = "workouts";
+"unit_days" = "days";
+"unit_weeks" = "weeks";
+"unit_months" = "months";
+
+// MARK: - Stats
+"stats_completed" = "Completed";
+"stats_remaining" = "Remaining";
+"stats_total" = "Total";
+"stats_average" = "Average";
+"stats_best" = "Best";
+"stats_current" = "Current";
+
+// MARK: - Accessibility
+"accessibility_close_button" = "Close";
+"accessibility_back_button" = "Go back";
+"accessibility_menu_button" = "Menu";
+"accessibility_play_button" = "Play";
+"accessibility_pause_button" = "Pause";
+"accessibility_workout_progress" = "Workout progress: %d percent";
+"accessibility_timer" = "Timer: %d seconds remaining";
+
+// MARK: - Voice Over
+"voiceover_workout_card" = "%@ workout, %d minutes, %@ difficulty";
+"voiceover_exercise_card" = "%@, %d sets of %d reps";
+"voiceover_progress_ring" = "Progress: %d percent complete";
+
+// MARK: - Date Formatting
+"date_today" = "Today";
+"date_yesterday" = "Yesterday";
+"date_tomorrow" = "Tomorrow";
+"date_this_week" = "This Week";
+"date_last_week" = "Last Week";
+"date_next_week" = "Next Week";
+
+// MARK: - Time Formatting
+"time_morning_greeting" = "morning";
+"time_afternoon_greeting" = "afternoon";
+"time_evening_greeting" = "evening";
+
+// MARK: - Pluralization
+"workouts_count_zero" = "No workouts";
+"workouts_count_one" = "1 workout";
+"workouts_count_other" = "%d workouts";
+
+"exercises_count_zero" = "No exercises";
+"exercises_count_one" = "1 exercise";
+"exercises_count_other" = "%d exercises";
+
+"days_count_zero" = "0 days";
+"days_count_one" = "1 day";
+"days_count_other" = "%d days";
+
+// MARK: - Empty States
+"empty_state_workouts" = "No workouts yet";
+"empty_state_workouts_subtitle" = "Start by creating your first workout plan";
+"empty_state_progress" = "No progress data";
+"empty_state_progress_subtitle" = "Complete workouts to see your progress";
+"empty_state_calendar" = "No events";
+"empty_state_calendar_subtitle" = "Your calendar events will appear here";
+
+// MARK: - Loading States
+"loading_workouts" = "Loading workouts...";
+"loading_progress" = "Loading progress...";
+"loading_calendar" = "Loading calendar...";
+"loading_profile" = "Loading profile...";
+
+// MARK: - Data Export
+"export_format_csv" = "CSV";
+"export_format_json" = "JSON";
+"export_progress_data" = "Export Progress Data";
+"export_workout_history" = "Export Workout History";
+"export_success" = "Data exported successfully";
+
+// MARK: - Adaptive Behavior
+"adaptive_difficulty_increased" = "Workout difficulty increased based on your progress";
+"adaptive_difficulty_decreased" = "Workout difficulty adjusted for recovery";
+"adaptive_rest_day_suggested" = "Rest day suggested based on your recent activity";
+"adaptive_workout_modified" = "Workout modified based on your preferences";
+
+// MARK: - Injury Detection
+"injury_detected_title" = "Injury Detected";
+"injury_detected_message" = "We've noticed you mentioned an injury. Let's adjust your plan.";
+"injury_rehab_plan" = "Rehabilitation Plan";
+"injury_modify_workout" = "Modify Workout";
+"injury_skip_exercise" = "Skip Exercise";
+
+// MARK: - Check-in Flow
+"checkin_title" = "How did last week go?";
+"checkin_subtitle" = "Help us improve your upcoming workouts";
+"checkin_energy_level" = "Energy Level";
+"checkin_soreness" = "Muscle Soreness";
+"checkin_motivation" = "Motivation";
+"checkin_injuries" = "Any new aches or pains?";
+"checkin_feedback" = "Additional feedback";
+"checkin_submit" = "Submit Check-in";
+
+// MARK: - Motivational Messages
+"motivation_great_start" = "Great start to your fitness journey!";
+"motivation_keep_going" = "You're doing amazing, keep it up!";
+"motivation_almost_there" = "Almost there, you've got this!";
+"motivation_new_record" = "New personal record!";
+"motivation_consistency" = "Consistency is key - well done!";
+
+// MARK: - Premium Features (Future)
+"premium_unlock" = "Unlock Premium";
+"premium_feature_locked" = "Premium feature";
+"premium_benefits" = "Premium Benefits";
+"premium_unlimited_workouts" = "Unlimited custom workouts";
+"premium_advanced_analytics" = "Advanced analytics";
+"premium_personal_trainer" = "AI personal trainer"; 

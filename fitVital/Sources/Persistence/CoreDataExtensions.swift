@@ -36,8 +36,7 @@ extension CDUserProfile {
               let name = name,
               let fitnessGoalString = fitnessGoal,
               let fitnessGoal = FitnessGoal(rawValue: fitnessGoalString),
-              let createdAt = createdAt,
-              let updatedAt = updatedAt else {
+              let createdAt = createdAt else {
             return nil
         }
         
@@ -52,8 +51,7 @@ extension CDUserProfile {
             physicalLimitations: [],
             preferredTimes: [.morning],
             calendarSynced: calendarSynced,
-            createdAt: createdAt,
-            updatedAt: updatedAt
+            fitnessLevel: .beginner
         )
     }
     
@@ -66,7 +64,7 @@ extension CDUserProfile {
         self.sessionDuration = profile.sessionDuration
         self.calendarSynced = profile.calendarSynced
         self.createdAt = profile.createdAt
-        self.updatedAt = profile.updatedAt
+        self.updatedAt = profile.lastUpdated
     }
 }
 

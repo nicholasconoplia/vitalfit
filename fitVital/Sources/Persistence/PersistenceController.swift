@@ -229,7 +229,9 @@ extension PersistenceController {
             
             // Calculate total time
             let totalTime = completedWorkouts.reduce(0) { sum, workout in
-                sum + (workout.completedAt?.timeIntervalSince(workout.createdAt) ?? 0)
+                guard let completedAt = workout.completedAt,
+                      let createdAt = workout.createdAt else { return sum }
+                return sum + completedAt.timeIntervalSince(createdAt)
             }
             
             return WorkoutStats(
@@ -248,7 +250,7 @@ extension PersistenceController {
         var streak = 0
         var currentDate = today
         
-        let workoutDates = Set(workouts.compactMap { workout in
+        let workoutDates = Set<Date>(workouts.compactMap { workout in
             guard let completedDate = workout.completedAt else { return nil }
             return calendar.startOfDay(for: completedDate)
         })

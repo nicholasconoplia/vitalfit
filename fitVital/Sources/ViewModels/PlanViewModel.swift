@@ -350,14 +350,4 @@ extension Date {
         let components = calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: self)
         return calendar.date(from: components) ?? self
     }
-}
-
-extension TimeOfDay {
-    var defaultHour: Int {
-        switch self {
-        case .morning: return 7
-        case .afternoon: return 14
-        case .evening: return 18
-        }
-    }
 } 

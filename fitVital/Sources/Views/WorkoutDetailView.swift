@@ -841,13 +841,6 @@ enum AnimationMode {
     }
 }
 
-struct WorkoutCompletion {
-    let workoutId: UUID
-    let completedAt: Date
-    let duration: TimeInterval
-    let exercisesCompleted: Int
-}
-
 #Preview {
     WorkoutDetailView(
         workout: Workout.sampleWorkouts[0],
